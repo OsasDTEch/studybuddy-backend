@@ -1,0 +1,15 @@
+name: Keep Render App Alive
+
+on:
+  schedule:
+    # Runs every 5 minutes (you can change this to 10, 15, etc.)
+    - cron: "*/5 * * * *"
+  workflow_dispatch: # allows you to run it manually too
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl Render App
+        run: |
+          curl -s https://studybudyy-backend.onrender.com/ > /dev/null
