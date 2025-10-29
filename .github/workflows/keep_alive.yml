@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Curl Render App
         run: |
-          curl -s https://studybudyy-backend.onrender.com/ > /dev/null
+          curl -s https://studybuddy-backend-cqkr.onrender.com/ > /dev/null
