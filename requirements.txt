@@ -1,5 +1,4 @@
 python-dotenv
-PyPDF2
 fastapi
 uvicorn[standard]
 sqlalchemy
@@ -14,7 +13,6 @@ pydantic
 pydantic_ai
 langchain
 langgraph
-langchain-groq
 psycopg2-binary
 PyJWT
 langchain-google-genai
@@ -24,16 +22,5 @@ python-jose[cryptography]
 langchain-pinecone
 pinecone
 google-genai
-docx
-neo4j
-supabase
-alembic
-qdrant-client
-supabase
-python-docx
-pdfplumber
-feedparser
-httpx
-beautifulsoup4
-selectolax
+
 
