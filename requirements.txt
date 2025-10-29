@@ -9,6 +9,7 @@ pydantic
 pydantic_ai
 psycopg2-binary
 PyJWT
+langgraph
 urllib3
 langchain-community
 python-jose[cryptography]
